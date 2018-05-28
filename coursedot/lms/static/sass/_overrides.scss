@@ -34,7 +34,7 @@ $blue: rgb(225, 75, 32);
   .wrapper-header {
     text-align: right;
   }
-  .nav-global, .nav-courseware {
+  .nav-global:not(.authenticated), .nav-courseware {
     display: inline-block;
     float: none;
     margin-left: 10px;
