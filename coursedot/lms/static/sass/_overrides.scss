@@ -29,3 +29,15 @@ $blue: rgb(225, 75, 32);
     }
   }
 }
+
+body:not(.is-authenticated) {
+  .header-global {
+    .wrapper-header {
+      text-align: right;
+    }
+    .nav-global, .nav-courseware {
+      display: inline-block;
+      float: none;
+    }
+  }
+}
