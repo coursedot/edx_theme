@@ -1,6 +1,6 @@
 $blue: rgb(225, 75, 32);
 
-.home>header {
+.home > header {
   background-size: cover !important;
   background: url("../images/home-header-bg.jpg") 0 50%;
 
@@ -15,13 +15,13 @@ $blue: rgb(225, 75, 32);
     margin-left: 0;
     width: auto;
 
-    &>.heading-group {
-      &>h1 {
+    & > .heading-group {
+      & > h1 {
         color: white;
         font-size: 2.5em;
         text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
       }
-      &>p {
+      & > p {
         color: white;
         font-size: 1.3em;
         text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
@@ -30,14 +30,13 @@ $blue: rgb(225, 75, 32);
   }
 }
 
-body:not(.is-authenticated) {
-  .header-global {
-    .wrapper-header {
-      text-align: right;
-    }
-    .nav-global, .nav-courseware {
-      display: inline-block;
-      float: none;
-    }
+.header-global {
+  .wrapper-header {
+    text-align: right;
+  }
+  .nav-global, .nav-courseware {
+    display: inline-block;
+    float: none;
+    margin-left: 10px;
   }
 }
